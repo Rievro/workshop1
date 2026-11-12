@@ -1,0 +1,15 @@
+#header {
+    background-color: #b24c4c;
+    height: 90px;
+}
+
+#content {
+    background-color: #1c9a6c;
+    height: 800px;
+}
+
+#footer {
+    background-color: #b1a6c9;
+    height: 100px;
+    ;
+}
