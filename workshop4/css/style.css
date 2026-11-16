@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #333333;
+    margin: 0;
+}
+* {
+    box-sizing: border-box; /* padding telt mee in de breedte */
+}
+#container {
+    width: 960px;
+    margin: 0 auto; /* boven en onder 0, links en rechts automatisch */
+}
+#header {
+    background-color: #111111;
+    color: #ffffff;
+    height: 100px;
+    text-align: center;   /* tekst in het midden */
+    font-size: 32px;
+    line-height: 100px;   /* tekst verticaal in het midden: zelfde als de hoogte */
+}
+#content {
+    background-color: #be2626;
+    padding: 20px; /* 20px ruimte aan alle kanten, binnen het blok */
+}
+#footer {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}

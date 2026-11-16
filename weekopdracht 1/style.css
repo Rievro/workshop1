@@ -13,3 +13,14 @@
     height: 100px;
     ;
 }
+
+#content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.beat {
+    background-color: #1c9a6c;
+    padding: 15px;
+}
