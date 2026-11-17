@@ -1,0 +1,26 @@
+#header {
+    background-color: #b24c4c;
+    height: 90px;
+}
+
+#content {
+    background-color: #1c9a6c;
+    height: 800px;
+}
+
+#footer {
+    background-color: #b1a6c9;
+    height: 100px;
+    ;
+}
+
+#content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.beat {
+    background-color: #1c9a6c;
+    padding: 15px;
+}

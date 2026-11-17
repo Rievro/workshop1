@@ -28,3 +28,7 @@ body {
     padding: 20px;
     text-align: center;
 }
+.producten {
+    display: flex;
+    gap: 20px;
+}
