@@ -1,19 +1,23 @@
 #header {
-    background-color: #b24c4c;
-    height: 90px;
-}
+    background-color: #111111;
+    color: #ffffff;
+    height: 100px;
+    text-align: center;   /* tekst in het midden */
+    font-size: 32px;
+    line-height: 100px;   /* tekst verticaal in het midden: zelfde als de hoogte */
 
+}
 #content {
     background-color: #1c9a6c;
-    height: 800px;
+
 }
 
 #footer {
-    background-color: #b1a6c9;
-    height: 100px;
-    ;
+    background-color: #333333;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
 }
-
 #content {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -23,4 +27,27 @@
 .beat {
     background-color: #1c9a6c;
     padding: 15px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333333;
+    margin: 0;
+    list-style: none;
+}
+
+#container {
+    width: auto;
+    margin: 0 0; /* boven en onder 0, links en rechts automatisch */
+}
+.beat {
+    padding: 10px;           /* ruimte binnen het product */
+    margin-bottom: 20px;     /* ruimte onder elk product */
+}
+.beat img {
+    width: 500px;    
+    height: 180px;        /* alle productfoto's even breed */
+}
+* {
+    box-sizing: border-box; /* padding telt mee in de breedte */
 }
