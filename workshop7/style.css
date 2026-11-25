@@ -27,10 +27,12 @@ ul{
 }
 #content {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 50% 50%;
     gap: 20px;
 }
-
+#contents {
+    background-color: #fb0000;
+}
 .beat {
     background-color: #1c9a6c;
     padding: 15px;
@@ -61,4 +63,50 @@ body {
 
 ul{
     list-style: none;
+}
+
+
+
+/* Formulier: maximaal 400px breed */
+.formulier {
+    max-width: 400px;
+}
+
+/* Elk veld: label boven het invoervak, ruimte eronder */
+.veld {
+    margin-bottom: 15px;
+    background-color: #111111;
+}
+
+.veld label {
+    display: block;          /* label op een eigen regel */
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Alle invoervelden even breed */
+.veld input,
+.veld select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* Vinkje en label naast elkaar */
+.vinkje {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.vinkje input {
+    width: auto;
+}
+
+input.knop {
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
 }

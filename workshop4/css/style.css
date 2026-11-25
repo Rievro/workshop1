@@ -19,7 +19,7 @@ body {
     line-height: 100px;   /* tekst verticaal in het midden: zelfde als de hoogte */
 }
 #content {
-    background-color: #be2626;
+    background-color: #8d88ce;
     padding: 20px; /* 20px ruimte aan alle kanten, binnen het blok */
 }
 #footer {
@@ -32,3 +32,4 @@ body {
     display: flex;
     gap: 20px;
 }
+

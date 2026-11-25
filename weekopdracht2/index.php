@@ -1,27 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php
+ include "include/header.php";
+?>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JustBeats</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-
-
-
-    <div id="container">
-        <div id="header">
-            <h1>JustBeats</h1>
-
-            <ul>
-                <li>products</li>
-                <li>about us</li>
-                <li>contact</li>
-            </ul>
-</div> <!-- einde header -->
 <div id="products">
     <div id="content">
 
@@ -29,48 +9,46 @@
             <h2>map</h2>
             <img src="Images/Fox.png" >
             <p>€ 1,99</p>
-            <a href="detail.html">Purchase</a>
+            <a href="detail.php">Purchase</a>
         </div>
 
         <div class="beat">
             <h2>map2</h2>
             <img src="Images/Legacy.png">
             <p>€ 10,99</p>
-            <a href="detail.html">Purchase</a>
+            <a href="detail.php">Purchase</a>
         </div>
 
         <div class="beat">
             <h2>map3</h2>
             <img src="Images/Lightspeed.png">
             <p>€ 11,99</p>
-            <a href="detail.html">Purchase</a>
+            <a href="detail.php">Purchase</a>
         </div>
 
         <div class="beat">
             <h2>map4</h2>
             <img src="Images/Milky ways.png">
             <p>€ 1,99</p>
-            <a href="detail.html">Purchase</a>
+            <a href="detail.php">Purchase</a>
         </div>
 
         <div class="beat">
             <h2>map5</h2>
             <img src="Images/On the run.png" >
             <p>€ 10,99</p>
-            <a href="detail.html">Purchase</a>
+            <a href="detail.php">Purchase</a>
         </div>
 
         <div class="beat">
             <h2>map6</h2>
             <img src="Images/Spectra.png" >
             <p>€ 11,99</p>
-            <a href="detail.html">Purchase</a>
+            <a href="detail.php">Purchase</a>
         </div>
 
     </div>
 </div>
-        <div id="footer">&copy; JustBeats(andshapes)</div> <!-- einde footer -->
-
-</body>
-
-</html>
+    <?php
+ include "include/footer.php";
+?>

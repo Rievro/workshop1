@@ -16,3 +16,8 @@
     display: flex;
     gap: 20px;   /* 20px tussen elk blok */
 }
+
+.producten {
+    display: flex;
+    gap: 20px;
+}
