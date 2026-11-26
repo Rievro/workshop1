@@ -1,0 +1,64 @@
+#header {
+    background-color: #111111;
+    color: #ffffff;
+
+ display: flex;
+ flex-flow: row nowrap;
+ justify-content: space-between;
+    font-size: 32px;
+
+list-style: none;
+}
+#content {
+    background-color: #1c9a6c;
+
+}
+
+ul{
+    display: flex;
+     gap: 1rem; 
+     list-style: none;
+    }
+#footer {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+#content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.beat {
+    background-color: #1c9a6c;
+    padding: 15px;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #333333;
+    margin: 0;
+    list-style: none;
+}
+
+#container {
+    width: auto;
+    margin: 0 0; /* boven en onder 0, links en rechts automatisch */
+}
+.beat {
+    padding: 10px;           /* ruimte binnen het product */
+    margin-bottom: 20px;     /* ruimte onder elk product */
+}
+.beat img {
+    width: 500px;    
+    height: 180px;        /* alle productfoto's even breed */
+}
+* {
+    box-sizing: border-box; /* padding telt mee in de breedte */
+}
+
+ul{
+    list-style: none;
+}
